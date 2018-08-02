@@ -1,0 +1,45 @@
+
+
+nav.navbar, .navbar-default {
+    background-color:black !important;
+  
+  }
+  img {
+      height: auto;
+      width: auto;
+      padding-top: -20px;
+      
+  }
+
+
+
+
+  .navbar-brand { 
+
+    padding-top: 8px;
+  }
+
+  .container {
+
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0PX;
+    margin-left: 10PX;
+  }
+
+  .navbar-header {
+    padding-bottom: 0px;
+    height: 10px;
+  }
+
+  .v1 {
+    border-left: 6px solid green;
+    height: 500px;
+
+  }
+
+  
+
+
+
+
