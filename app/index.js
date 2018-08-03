@@ -5,7 +5,8 @@ import {applyMiddleware, createStore} from 'redux';
 import Login from './Components/Login/Login';
 import SectionComponent from './Components/SectionComponent/SectionComponent';
 import FooterComponent from './Components/FooterComponent/FooterComponent';
-import Corporation from './Components/Corporation/Corporation';
+//import Corporation from './Components/Corporation/Corporation';
+import CorporationPage from './Components/Corporation/CorporationPage';
 import allReducers from './reducers';
 import logger from 'redux-logger';
 
@@ -18,7 +19,7 @@ ReactDOM.render(
 <Provider store={store}>
 <div>
     <SectionComponent />
-   <Corporation />
+   <CorporationPage />
     <FooterComponent/>
     </div>
     

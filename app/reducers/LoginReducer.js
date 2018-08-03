@@ -1,18 +1,10 @@
-export default function(state={}, action){
-    let newState ={};
-    switch(action.type){
-        case 'LOGIN_SUCCESS':
-        let newState ={};
-        newState = Object.assign({}, state);
-        newState.loginUser = action.payload;
-        return newState;
-
-        case 'LOGIN_FAILUR':
-        newState = Object.assign({}, state);
-        newState.loginError = action.payload;
-        return newState;
-
-        default: 
+export default function userReducer(state = {}, action) {
+    switch (action.type) {
+      case 'VERIFICATION_DATA':
+        return action.payload;
+        break;
+      default:
         return state;
+  
     }
-}
+  }
