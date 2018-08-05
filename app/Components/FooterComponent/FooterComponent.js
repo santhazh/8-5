@@ -11,17 +11,18 @@ import './FooterComponent.css';
 
 
 const FooterComponent = () => (
-    <div className="foot container-fluid">
-    <div className= "footer container-fluid">
-    <a className="footerlink" href="#">Frequently Asked Questions    &nbsp; &nbsp; &nbsp; |</a> 
-    <a className="footerlink" href="#">Contact Customer Services   &nbsp; &nbsp; &nbsp; |</a>
-    <a className="footerlink" href="#">Easy Returs</a>
-    </div>
-    <div className="last container-fluid">
-    <a className="down footerlink" href="#">Privacy Policy &nbsp; &nbsp; &nbsp; |</a> 
-    <a className="down footerlink" href="#">Site Under Terms & Conditions</a>
-    </div>
-    </div>
+  <footer className="container-fluid main">
+  <div className= "footer1 container-fluid">
+  <div><a className="footerlink col-sm-4" href="#">Frequently Asked Questions    &nbsp; &nbsp; &nbsp; |</a> </div>
+  <div><a className="footerlink col-sm-4" href="#">Contact Customer Services   &nbsp; &nbsp; &nbsp; |</a></div>
+  <div><a className="footerlink col-sm-4" href="#">Easy Returs</a></div>
+  </div>
+  <div className= "footer2 container-fluid">
+  <div><a className="down footerlink col-sm-4" href="#">Privacy Policy &nbsp; &nbsp; &nbsp; |</a> </div>
+  <div><a className="down footerlink col-sm-4" href="#">Site Under Terms & Conditions</a></div>
+ 
+  </div>
+  </footer>
   );
 
 export default FooterComponent;

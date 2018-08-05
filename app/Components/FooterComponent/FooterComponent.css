@@ -1,41 +1,12 @@
 
 
+.footer1 {
+ background-color: blue;
+ width:85%;
+}
 
 
-.footer{
-    position: fixed;
-    left: 7%;
-   bottom: 30px;
-   width: 100%;
-   background-color:  #f2f2f2;
-   color: white;
-   text-align: center;
-   height: 40px;
-   width:85%;
-   font-family:verdana;
-  
-
-  }
-
-  .footerlink {
-    color: black;
-    padding-left:20px;
-    float: left;
-    padding-top:12px;
-   
-  }
-
-  .last {
-    position: fixed;
-    bottom: 0;
+.footer2 {
+    background-color:red;
     width:85%;
-    left: 7%;
-    color: white;
-    font-family:Helvetica;
-    
-}
-
-.down {
-    color:#737373;
-}
-  
+   }

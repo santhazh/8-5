@@ -14,7 +14,7 @@
 
 
 .next {
-    padding-top:25%;
+    padding-top:15%;
 }
 
 
@@ -23,5 +23,11 @@ label {
     font-weight: 400;
 
 }
+
+.file { position: relative; height: 30px; width: 100px; }
+.file > input[type="file"] { position: absoulte; opacity: 0; top: 0; left: 0; right: 0; bottom: 0 }
+.file > label { position: absolute; top: 0; right: 0; left: 0; bottom: 0; background-color: #666; color: #fff; line-height: 30px; text-align: center; cursor: pointer; }
+
+
 
 
